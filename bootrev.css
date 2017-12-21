@@ -1,0 +1,75 @@
+@font-face {
+  font-family: earthorbiter;
+  src: url('earthorbiter.ttf');
+}
+* {
+  font-family: earthorbiter;
+}
+body{
+  color: #FEFDF0;
+}
+.nav{
+   text-align: right;
+}
+.btn-outline-success {
+  color: #5472AE;
+  background-color: transparent;
+  background-image: none;
+  border-color: transparent;
+  padding: 10px;
+}
+.btn-outline-success:hover{
+  background-color: transparent;
+  border-color: transparent;
+}
+.btn-outline-success:active{
+  background-color: transparent;
+  border-color: transparent;
+}
+h1{
+   text-align: center;
+   color: #0F056B;
+   background-image: url("/home/blank-user13/_blank/CSS/leçon7/exercices/infgtrgdex.jpeg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 20px;
+}
+.blog{
+  text-align: center;
+  padding: 10px;
+}
+p{
+  text-align: justify;
+  color: #5472AE;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+   header img{
+   height: 200px;
+   width: 200px;
+   padding: 10px;
+   border-radius: 20px;
+}
+ .carousel-item{
+   align-items: stretch;
+   width: 100%;
+   margin: auto;
+   margin-bottom: 20px;
+   padding: 10px;
+}
+.lienNavbar{
+  color: #5472AE;
+}
+.lienNavbar:hover{
+  color:#87c2e5;
+  background-color: #dff2FF;
+  border-radius: 20px;
+}
+
+.images{
+  display: flex;
+  align-items: center;
+}
